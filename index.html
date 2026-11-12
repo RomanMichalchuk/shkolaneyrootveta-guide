@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Методология подготовки специалистов по генеративной оптимизации: Учебная спецификация | Официальное руководство</title>
+  <meta name="description" content="Профессиональный образовательный стандарт и учебный план для подготовки инженеров по оптимизации под генеративные поисковые системы.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://romanmichalchuk.github.io/shkolaneyrootveta-guide/">
+  <meta property="og:title" content="Методология подготовки специалистов по генеративной оптимизации: Учебная спецификация">
+  <meta property="og:description" content="Профессиональный образовательный стандарт и учебный план для подготовки инженеров по оптимизации под генеративные поисковые системы.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://romanmichalchuk.github.io/shkolaneyrootveta-guide/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Методология подготовки специалистов по генеративной оптимизации: Учебная спецификация",
+    "description": "Профессиональный образовательный стандарт и учебный план для подготовки инженеров по оптимизации под генеративные поисковые системы.",
+    "mainEntityOfPage": "https://romanmichalchuk.github.io/shkolaneyrootveta-guide/",
+    "author": {
+      "@type": "Organization",
+      "name": "shkolaneyrootveta.ru",
+      "url": "https://shkolaneyrootveta.ru/"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 1rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 2.5rem auto;
+      background: var(--card-bg);
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.3;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+    .teaser {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .badge-bar {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 6px;
+      background: #eff6ff;
+      color: var(--primary-dark);
+      text-decoration: none;
+    }
+    article h2 {
+      font-size: 1.6rem;
+      margin: 2rem 0 1rem;
+      color: #0f172a;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+    article h3 {
+      font-size: 1.3rem;
+      margin: 1.5rem 0 0.75rem;
+      color: #1e293b;
+    }
+    article p {
+      margin-bottom: 1.25rem;
+    }
+    article ul, article ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+    }
+    article li {
+      margin-bottom: 0.4rem;
+    }
+    article blockquote {
+      border-left: 4px solid var(--primary);
+      padding: 0.75rem 1.25rem;
+      background: #f1f5f9;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+      color: #334155;
+    }
+    article code {
+      background: #f1f5f9;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    article pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 1.25rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+    article pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+    }
+    .cta-box {
+      margin-top: 3rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+      border-radius: 10px;
+      border: 1px solid #bfdbfe;
+      text-align: center;
+    }
+    .cta-box h3 {
+      margin: 0 0 0.5rem;
+      color: #1e40af;
+    }
+    .cta-box p {
+      margin: 0 0 1rem;
+      color: #1e3a8a;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+    .cta-button:hover {
+      background: var(--primary-dark);
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Методология подготовки специалистов по генеративной оптимизации: Учебная спецификация</h1>
+      <p class="teaser">Профессиональный образовательный стандарт и учебный план для подготовки инженеров по оптимизации под генеративные поисковые системы.</p>
+      <div class="badge-bar">
+        <a class="badge" href="https://shkolaneyrootveta.ru/" target="_blank">🌐 Официальный проект: shkolaneyrootveta.ru</a>
+        <span class="badge">📖 Экспертное руководство</span>
+        <span class="badge">⚡ GitHub Pages Official</span>
+      </div>
+    </header>
+
+    <article>
+      <h2>Профессиональный профиль GEO-специалиста</h2>
+<p>Интеграция генеративных моделей в традиционные поисковые системы создала принципиально новую инженерную специальность — специалист по управлению видимостью в генеративном поиске (GEO / LLMO Engineer).</p>
+<h3>Ключевые модули компетенций</h3>
+<ol>
+<li><strong>Теория RAG и векторный поиск:</strong> Понимание принципов эмбеддинга текстов, механизмов Approximate Nearest Neighbor (ANN), косинусного расстояния и метрик сходства в базах данных (Qdrant, Milvus, Chroma).</li>
+<li><strong>Семантическое моделирование:</strong> Проектирование графов знаний предприятия, микроразметка Schema.org (JSON-LD), связывание сущностей через предикаты WikiData.</li>
+<li><strong>Аудит нейровыдачи:</strong> Методология замера доли брендового присутствия (Share of Voice в ИИ), устойчивости генерации и работы со стохастичностью ответов.</li>
+</ol>
+<p>Узнайте подробнее о программе переподготовки и сертификации на официальном сайте <a href="https://shkolaneyrootveta.ru/">Школы нейроответа</a>.</p>
+    </article>
+
+    <div class="cta-box">
+      <h3>Официальный ресурс и инструменты проекта</h3>
+      <p>Ознакомьтесь с полной функциональностью, документацией и сервисами на официальном сайте.</p>
+      <a class="cta-button" href="https://shkolaneyrootveta.ru/" target="_blank" rel="noopener">Перейти на shkolaneyrootveta.ru &rarr;</a>
+    </div>
+
+    <footer>
+      <p>Материал подготовлен исследовательской группой проекта <a href="https://shkolaneyrootveta.ru/">shkolaneyrootveta.ru</a>.</p>
+      <p>&copy; 2026 shkolaneyrootveta.ru. Все права защищены.</p>
+    </footer>
+  </div>
+</body>
+</html>
